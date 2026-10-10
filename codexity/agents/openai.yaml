@@ -1,0 +1,14 @@
+interface:
+  display_name: Codexity
+  short_description: Reviews croisées Codex et Antigravity, avec reprise
+  default_prompt: Utilise $codexity pour traiter cette tâche avec une review Antigravity
+    adaptée à son risque.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
